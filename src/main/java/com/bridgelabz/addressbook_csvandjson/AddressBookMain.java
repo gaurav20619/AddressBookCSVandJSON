@@ -13,7 +13,7 @@ public class AddressBookMain {
     public static void main(String[] args) throws IOException, ParseException {
         System.out.println("Welcome to address book Program");
         System.out.println();
-        System.out.println("Operation successful.");
+        
 
         boolean moreChanges = true;
         do {
@@ -66,7 +66,7 @@ public class AddressBookMain {
     }
 
     
-    //Adding new address book to by checking existing book is available or not
+    //Adding new address book by checking existing book is available or not
     
     public static void addAddressBook() throws IOException, ParseException {
         AddressBook addressBook = new AddressBook();
